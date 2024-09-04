@@ -1,0 +1,177 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Times New Roman', Times, serif ;
+  margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{font-size: 1.2em;}
+
+button{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px ;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  color: white;
+  background-color:orange ;
+}
+
+button:hover{
+  background-color: orange;
+}
+.container{
+  max-width: 1400px;
+  margin: auto;
+}
+header{
+  background-color: rgb(255, 165, 0);
+}
+header .logo{
+  margin: 0;
+  padding: 25px;
+  font-weight: bold;
+  color: rgb(1, 1, 1);
+  font-size: 2em;
+}
+header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+  padding-bottom: 25px;
+}
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+header a:hover{
+  color: rgb(255, 165, 0);
+}
+
+#burguer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: url("img/burger.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} 
+
+#hero h1{
+  color: rgb(254, 251, 251);
+}
+
+#hero button {
+  font-size: 1.75em;
+ }
+
+#speed-food .container{
+  text-align: center;
+  padding: 200px 12px;
+
+}
+
+#nuestros-platos{
+  background-color: rgb(255, 165, 0);
+  color: rgb(18, 17, 17);
+  text-align: center;
+}
+#nuestros-platos .container {
+  padding: 200px 0px;
+}
+
+#nuestros-platos {
+  margin-top: 0;
+}
+#nuestros-platos p {
+  display: none;
+}
+
+#nuestros-platos .carta{
+  background-position: center center;
+  background-size: cover;
+  padding: 150px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.carta:first-child{
+ background-image: url(img/imagen_2024-03-12_093709169.png);
+ 
+}
+
+.carta:nth-child(2){
+ background-image: url(img/63fe6b7f84338.jpeg);
+
+}
+
+.carta:nth-child(3){
+  background-image: url(img/8634.jpg);
+ 
+}
+
+#caracteristicas .container{
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#caracteristicas.li{
+  margin: 12px 0px;
+  font-weight: bold;
+}
+ #pide-ya {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+  background-image: url(img/illustration-of-a-hurrying-delivery-man-on-a-scooter-with-a-big-bag-behind-his-back-against-the-background-of-the-city-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+ }
+
+ #pide-ya{
+  font-size: 3vw;
+ }
+
+ #pide-ya button {
+  font-size: 5vw;
+ }
+
+ #footer{
+  background-color: coral;
+ }
+footer p {
+  margin: 0;
+  padding: 12px;
+  color: dimgray;
+}
+ footer .container{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+ }
